@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Image Editor</string>
+    <string name="pick_an_image">Pick an Image</string>
+    <string name="editing">Editing</string>
+</resources>
