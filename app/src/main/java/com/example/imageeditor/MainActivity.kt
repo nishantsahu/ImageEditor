@@ -68,10 +68,7 @@ class MainActivity : AppCompatActivity(), MainListener {
 
     override fun crop(x: Int, y: Int) {
         if (x == 1 && y == 1) {
-            binding.viewModel.aspectRation = "1.78"
-        }
-        if (x == 16 && y == 9) {
-
+            binding.imgImage.scaleType = ImageView.ScaleType.CENTER_CROP
         }
     }
 
